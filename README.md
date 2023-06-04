@@ -48,7 +48,7 @@ Set up a `systemd` service to launch the server automatically. The service confi
 is set in `minecraft.service` and can be installed as:
 
 ```bash
-sudo ln -s /home/home-server/minecraft/minecraft.service /etc/systemd/system/minecraft.service
+sudo ln -s /home/minecraft/minecraft/minecraft.service /etc/systemd/system/minecraft.service
 sudo systemctl daemon-reload
 sudo systemctl enable minecraft
 sudo systemctl start minecraft
