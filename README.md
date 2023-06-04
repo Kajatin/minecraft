@@ -54,6 +54,10 @@ sudo systemctl enable minecraft
 sudo systemctl start minecraft
 ```
 
-## Reverse proxy configuration
+## DNS configuration
 
-TBD
+Whitelisted players can connect to the server by adding `minecraft.rolandkajatin.com` multiplayer
+server in their game.
+
+For this to work, I configured my DNS with a new A record for `minecraft.` and configured a
+NAT rule for port 25565.
